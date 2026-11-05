@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 本地密钥：只提交 .env.example，真实 key 永远不进仓库
+.env
+
+# demo 运行时产物（SQLite checkpoint、向量库、deep agent 工作区等）
+.runtime/
+.langgraph_api/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
